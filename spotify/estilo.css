@@ -143,38 +143,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-/* XS */
-@media screen and (max-width:767px) {
-    h1 {
-        font-size: 50px;
-    }
-    
-    .btn-custom {
-        margin: 10px 15px;
-    }
-}
-
-/* SM */
-@media screen and (min-width:767px) {
-    h1 {
-        font-size: 70px;
-    }
-}
-
-/* MD */
-@media screen and (min-width:992px) {
-    h1 {
-        font-size: 50px;
-    }
-}
-
-/* LG */
-@media screen and (min-width:767px) {
-    h1 {
-        font-size: 100px;
-    }
-}
-
 h2 {
     font-size: 50px;
     font-weight: bold;
@@ -199,4 +167,60 @@ h3 {
     color: #919496;
     font-size: 12px;
     text-transform: uppercase;
+}
+
+/* XS */
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 50px;
+    }
+    
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+    .albuns {
+        padding: 0 0;
+    }
+
+    .albuns img {
+        padding: 10px 0;
+    }
+
+    #rodape .img-logo {
+        width: 270px;
+        background-position: center;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    #rodape ul li {
+        display: inline;
+        float: left;
+    }
+}
+
+/* SM */
+@media screen and (min-width:767px) {
+    h1 {
+        font-size: 70px;
+    }
+}
+
+/* MD */
+@media screen and (min-width:992px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    #servicos {
+        padding-bottom: 50px;
+    }
+}
+
+/* LG */
+@media screen and (min-width:767px) {
+    h1 {
+        font-size: 100px;
+    }
 }
